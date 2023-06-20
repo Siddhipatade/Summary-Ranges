@@ -1,6 +1,6 @@
 # Summary Ranges
 
-This repository contains a C++ implementation of the "Summary Ranges" problem. Given a sorted unique integer array, the code finds the smallest sorted list of ranges that covers all the numbers exactly.
+This repository contains a C++ implementation of the `"Summary Ranges"` problem. Given a sorted unique integer array, the code finds the smallest sorted list of ranges that covers all the numbers exactly.
 
 ## Problem Description
 
@@ -36,7 +36,7 @@ To use the code provided in this repository, follow these steps:
 5. Use the resulting ranges as needed.
 
 ## Example
-
+```c++
      #include <iostream>
      #include <vector>
      #include <string>
@@ -57,6 +57,7 @@ To use the code provided in this repository, follow these steps:
 
       return 0;
      }
+```
 
 In this example, we have an input array nums with values [0, 1, 2, 4, 5, 7]. The summaryRanges function is called with nums to obtain the ranges. The resulting ranges are then printed to the console.
 
